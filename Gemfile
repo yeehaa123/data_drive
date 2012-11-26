@@ -17,12 +17,12 @@ group :development, :test do
   gem 'pry-rails'
   gem 'pry-doc'
   gem 'rspec-rails', '~> 2.0'
-  gem 'cucumber-rails', require: false
   gem 'factory_girl_rails'
   gem 'database_cleaner'
-  gem 'capybara'
+  gem 'capybara', '1.1.3'
   gem 'launchy'
   gem 'shoulda-matchers'
+  gem 'turnip'
 end
 
 group :assets do
